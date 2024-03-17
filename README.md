@@ -12,5 +12,11 @@ mkdir HTTP-SERVER
 cd HTTP_SERVER
 >>go mod init hellogohttp/m/v2
 ## Create DocerFile
-
+>>docker images
+## Docker Build
+>>docker build -t yourwish .
+## Docker tag
+>>docker tag yourwish-multistage dockerhubusername .
+## Docker Push
+>>docker push dockerhubusername/reponame
 
